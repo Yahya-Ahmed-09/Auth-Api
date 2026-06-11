@@ -19,6 +19,7 @@ app.get("/api", (req, res)=>{
 
 app.get("/", (req, res)=>{
     res.send("API Is Running")
+    console.log("API Is Running")
 })
 
 app.use("/api/auth", authRoutes);
